@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/moshiurabir/simplebank/token"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/token"
 )
 
 func addAuthorization(

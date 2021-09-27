@@ -14,10 +14,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/lib/pq"
+	mockdb "github.com/moshiurabir/simplebank/db/mock"
+	db "github.com/moshiurabir/simplebank/db/sqlc"
+	"github.com/moshiurabir/simplebank/util"
 	"github.com/stretchr/testify/require"
-	mockdb "github.com/techschool/simplebank/db/mock"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/util"
 )
 
 type eqCreateUserParamsMatcher struct {

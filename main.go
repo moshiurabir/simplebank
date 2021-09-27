@@ -5,9 +5,9 @@ import (
 	"log"
 
 	_ "github.com/lib/pq"
-	"github.com/techschool/simplebank/api"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/util"
+	"github.com/moshiurabir/simplebank/api"
+	db "github.com/moshiurabir/simplebank/db/sqlc"
+	"github.com/moshiurabir/simplebank/util"
 )
 
 func main() {
